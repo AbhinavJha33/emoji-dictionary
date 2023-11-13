@@ -18,7 +18,7 @@ export default function App() {
   }
 
   function emojiClickHandler(item) {
-    var meaning = emojiDictionary[event.target.value];
+    var meaning = emojiDictionary[item];
     if (meaning===undefined) {
       meaning = "Sorry! This emoji is not available in our dictionary."
     }
