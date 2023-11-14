@@ -1,4 +1,24 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: #F5E8C7;
+  color: #363062;
+  
+}
+
+input {
+  /* height: 25px; */
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+#emojiMeaning {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#emojis {
+  font-size: 2rem;
+  padding: 0.5rem;
 }
